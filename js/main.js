@@ -8,8 +8,8 @@ $(window).scroll(function () {
 $("#menu").onePageNav({
   currentClass: "active",
   changeHash: false,
-  scrollSpeed: 500,
-  scrollThreshold: 0.5,
+  scrollSpeed: 400,
+  scrollThreshold: .3,
   filter: "",
   easing: "swing",
 });
@@ -31,3 +31,5 @@ $(window).on("load", function () {
   $(".preloader-wrapper").fadeOut(2000);
   $("body").removeClass("preloader-site");
 });
+
+
